@@ -8,4 +8,4 @@
 
 ## 下载链接
 
-[https://raw.githubusercontent.com/lijinglin2019/proxylist/master/proxylist.txt](https://raw.githubusercontent.com/lijinglin2019/proxylist/master/proxylist.txt)
+[https://raw.githubusercontent.com/lijinglin3/proxylist/master/proxylist.txt](https://raw.githubusercontent.com/lijinglin3/proxylist/master/proxylist.txt)
