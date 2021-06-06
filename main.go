@@ -72,7 +72,7 @@ func genSurgeRules(list *router.GeoSiteList) error {
 }
 
 func genProxyList(list *router.GeoSiteList) error {
-	src := make([]byte, 0)
+	src := []byte("[AutoProxy 0.2.9]\n")
 	for _, entry := range list.Entry {
 		prefix := ""
 		if entry.CountryCode == "CN" {
@@ -86,9 +86,8 @@ func genProxyList(list *router.GeoSiteList) error {
 			src = append(src, []byte(prefix+domain.Value+"^\n")...)
 		}
 	}
-	data := make([]byte, base64.StdEncoding.EncodedLen(len(src)))
-	base64.StdEncoding.Encode(data, src)
-	err := ioutil.WriteFile("proxylist.txt", data, 0644)
+	data := base64.StdEncoding.EncodeToString(src)
+	err := ioutil.WriteFile("proxylist.txt", []byte(data), 0644)
 	if err != nil {
 		return fmt.Errorf("failed to generate proxy list")
 	}
