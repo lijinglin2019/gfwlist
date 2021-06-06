@@ -64,7 +64,7 @@ func genSurgeRules(list *router.GeoSiteList) error {
 			}
 			err := ioutil.WriteFile("surge/"+strings.ToLower(entry.CountryCode), data, 0644)
 			if err != nil {
-				return fmt.Errorf("failed to generate surge rule %s", strings.ToLower(entry.CountryCode))
+				return fmt.Errorf("failed to generate surge rule %s, err: %+v", strings.ToLower(entry.CountryCode), err)
 			}
 		}
 	}
@@ -89,7 +89,7 @@ func genProxyList(list *router.GeoSiteList) error {
 	data := base64.StdEncoding.EncodeToString(src)
 	err := ioutil.WriteFile("proxylist.txt", []byte(data), 0644)
 	if err != nil {
-		return fmt.Errorf("failed to generate proxy list")
+		return fmt.Errorf("failed to generate proxy list, err: %+v", err)
 	}
 	return nil
 }
