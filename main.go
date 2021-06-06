@@ -83,7 +83,7 @@ func genProxyList(list *router.GeoSiteList) error {
 			continue
 		}
 		for _, domain := range entry.Domain {
-			src = append(src, []byte(prefix+domain.Value+"^\n")...)
+			src = append(src, []byte(prefix+domain.Value+"\n")...)
 		}
 	}
 	data := base64.StdEncoding.EncodeToString(src)
