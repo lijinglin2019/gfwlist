@@ -564,6 +564,7 @@ DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,mincdn.com
+DOMAIN-SUFFIX,biligo.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,biji.com
 DOMAIN-SUFFIX,ddmogo.com
@@ -849,6 +850,8 @@ DOMAIN-SUFFIX,yiche.com
 DOMAIN-SUFFIX,yccdn.com
 DOMAIN-SUFFIX,shimo.im
 DOMAIN-SUFFIX,yuque.com
+DOMAIN-SUFFIX,capitalonline.net
+DOMAIN-SUFFIX,mirrors.yun-idc.com
 DOMAIN-SUFFIX,chinaso.com
 DOMAIN-SUFFIX,pg0.cn
 DOMAIN-SUFFIX,chinaz.com
@@ -936,6 +939,9 @@ DOMAIN-SUFFIX,cnki.net
 DOMAIN-SUFFIX,apabi.com
 DOMAIN-SUFFIX,cnthinkers.com
 DOMAIN-SUFFIX,cqvip.com
+DOMAIN-SUFFIX,er07.com
+DOMAIN-SUFFIX,ersjk.com
+DOMAIN-SUFFIX,sbsjk.com
 DOMAIN-SUFFIX,huijistatic.com
 DOMAIN-SUFFIX,huijiwiki.com
 DOMAIN-SUFFIX,moegirl.org
@@ -2446,6 +2452,7 @@ DOMAIN-SUFFIX,jdair.net
 DOMAIN-SUFFIX,jia.com
 DOMAIN-SUFFIX,jiameng.com
 DOMAIN-SUFFIX,jianbihua.com
+DOMAIN-SUFFIX,jianguoyun.com
 DOMAIN-SUFFIX,jianzhi8.com
 DOMAIN-SUFFIX,jiaodong.net
 DOMAIN-SUFFIX,jiaoyimao.com
